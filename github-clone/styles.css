@@ -1,0 +1,114 @@
+/*
+    charcoal background: #2D333B
+    black background: #22272E
+    outlines: #444C56
+    off white text: #CDD9E5
+    light gray text: #ACB9C6
+    orange underline: #EC775C
+    blue repo name: #539BF5
+    yellow JavaScript circle: #F1E05A
+    redorange HTML circle: #E34C26
+*/
+
+/*GLOBAL*/
+.flex-r-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*{
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    background-color: #22272E;
+}
+
+/*HEADER*/
+header{
+    padding: 4px 30px;
+    background-color: #2d333b;
+}
+
+header input{
+    margin-left: -70px;
+}
+
+input{
+    background-color: #22272E;
+    border-radius: 4px;
+    width: 200px;
+}
+
+nav p{
+    color: #CDD9E5;
+    margin-right: 20px;
+}
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+.profile-icons img{
+    height: 40px;
+    width: 40px;
+}
+
+/*MAIN*/
+.sub-nav{
+    justify-content: flex-end;
+    padding-top: 45px;
+    padding-right: 60px;
+    /* padding-bottom: 20px; */
+    border-bottom: solid grey 1px;
+
+}
+
+.sub-nav p{
+    font-size: 15px;
+    margin-right: 50px;
+    height: 35px;
+}
+
+#underline{
+    border-bottom: solid 2px orange;
+}
+/*REPO NAV*/
+
+
+/*CONTAINER*/
+
+
+/*LEFT PROFILE*/
+.profile-info img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    padding: 25px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top:70px;
+}
+
+.profile-info h2{
+    padding-bottom: 15px;
+}
+
+.profile-info h1{
+    font-size: xx-large;
+    color: #ACB9C6;
+}
+
+.user-info{
+    width: 300px;
+}
+/*RIGHT REPOS*/
